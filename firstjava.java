@@ -26,7 +26,14 @@ public class firstjava{
 
         gender = keyboard.next().charAt(0);
 
-
-        System.out.println("Your name is : " + name + " Your age is : " + age + " your Gender is : " + gender); 
+        if(gender == 'F' || gender == 'f')
+            System.out.println("Happy March 8 !");
+           
+    
+           else
+            System.out.println("Leave you dont have a day");
+           
+            System.out.println("Your name is : " + name + " Your age is : " + age + " your Gender is : " + gender);    
     }
-}
+   
+    }
